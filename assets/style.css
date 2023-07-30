@@ -57,6 +57,36 @@ nav li {
 
 }
 
+.aboutMe {
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.aboutMe h2 {
+    border-right: solid 5px #0355a1;
+    text-align: right;
+    padding: 10px;
+    color:#0355a1;
+}
+
+.aboutMe p {
+    color:#0355a1;
+    padding-left: 20px;
+}
+
+.work {
+    display: flex;
+    margin-top: 40px;
+}
+
+.work h2 {
+    border-right: solid 5px #0355a1;
+    text-align: right;
+    padding: 10px;
+    color:#0355a1;
+}
+
 
 
 /* Media Queries for mobile first design */
