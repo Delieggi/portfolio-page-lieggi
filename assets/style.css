@@ -53,8 +53,6 @@ nav li {
     width: 300px;
     height: 40px;
     float: right;
-
-
 }
 
 .aboutMe {
@@ -75,9 +73,11 @@ nav li {
     padding-left: 20px;
 }
 
+
 .work {
     display: flex;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-top: 2%;
 }
 
 .work h2 {
@@ -87,9 +87,25 @@ nav li {
     color:#0355a1;
 }
 
+.card {
+    flex: 1 0 0;
+    border: solid 5px #0355a1;
+    margin: 15px;
+  }
 
 
-/* Media Queries for mobile first design */
+.card header {
+    color:aliceblue;
+    width: 100px;
+    height: 50px;
+}
+
+
+  .card img {
+    width: 100%;
+  }
+
+/* Media Queries for mobile design */
 
 @media screen and (min-width: 768px) {
    
