@@ -99,11 +99,14 @@ section h2 {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 .card {
-  /* flex: 1 0 0; */
   border: solid 5px #0355a1;
   margin: 2rem auto;
-  width: 33%;
+  width: 45%;
+  position: relative;
+  display: flex;
 }
 
 .card.card-banner {
@@ -112,13 +115,20 @@ section h2 {
 
 .card.card-banner header {
     display: inline-block;
+
 }
+
 
 .card header {
   color: aliceblue;
-  width: 100px;
+  width: 55%;
   height: 50px;
+  display: inline-block;
+  align-items:flex-end;
+  position: absolute;
+  bottom: 50px;
 }
+
 
 .card img {
   width: 100%;
@@ -159,4 +169,18 @@ section h2 {
 /* Media Queries for mobile design */
 
 @media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  .aboutMe h2 {
+    border-bottom: solid 5px #0355a1;
+    border-right: white;
+  }
+
+  .work h2 {
+    border-bottom: solid 5px #0355a1;
+    text-align: center;
+    border-right: white;
+  }
 }
