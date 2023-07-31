@@ -1,149 +1,162 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: #0355a1;
-    margin:auto;
-    padding: 5px;
-    height: 100px;
+  background-color: #0355a1;
+  margin: auto;
+  padding: 5px;
+  height: 100px;
 }
 
 h1 {
-    background-color: aliceblue;
-    color:#0355a1;
-    display: flex;
-    font-size: 300%;
-    width: 275px;
-    height: 75px;
-    padding-left: 50px;
+  background-color: aliceblue;
+  color: #0355a1;
+  display: flex;
+  font-size: 300%;
+  width: 275px;
+  height: 75px;
+  padding-left: 50px;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: -50px;
 }
 
 nav li {
-    border-bottom: solid aliceblue 5px;
-    padding: 10px;
-    color:aliceblue;
-    margin: 10px;
+  border-bottom: solid aliceblue 5px;
+  padding: 10px;
+  color: aliceblue;
+  margin: 10px;
 }
 
 .banner img {
-    width: 100%;
-    height: 160px;
-    z-index: -1;
-    position: relative;
+  width: 100%;
+  height: 160px;
+  z-index: -1;
+  position: relative;
 }
 
 .banner h2 {
-    margin-top: -70px;
-    margin-right: 70px;
-    background-color: aliceblue;
-    color:#0355a1;
-    width: 300px;
-    height: 40px;
-    float: right;
+  margin-top: -70px;
+  margin-right: 70px;
+  background-color: aliceblue;
+  color: #0355a1;
+  width: 300px;
+  height: 40px;
+  float: right;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+}
+section h2 {
+  width: 25%;
 }
 
 .aboutMe {
-    display: flex;
-    margin-top: 40px;
-    
+  /* display: flex; */
+  /* margin-top: 40px; */
 }
 
 .aboutMe h2 {
-    border-right: solid 5px #0355a1;
-    text-align: right;
-    padding: 10px;
-    color:#0355a1;
+  border-right: solid 5px #0355a1;
+  text-align: right;
+  padding: 10px;
+  color: #0355a1;
 }
 
 .aboutMe p {
-    color:#0355a1;
-    padding-left: 20px;
+  color: #0355a1;
+  padding-left: 20px;
+  width: 71%;
 }
 
-
 .work {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .work h2 {
-    border-right: solid 5px #0355a1;
-    text-align: right;
-    padding: 10px;
-    color:#0355a1;
+  border-right: solid 5px #0355a1;
+  text-align: right;
+  padding: 10px;
+  color: #0355a1;
 }
 
+.work-cards-container {
+    padding-left: 20px;
+    width: 71%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .card {
-    flex: 1 0 0;
-    border: solid 5px #0355a1;
-    margin: 15px;
-  }
+  /* flex: 1 0 0; */
+  border: solid 5px #0355a1;
+  margin: 2rem auto;
+  width: 33%;
+}
 
+.card.card-banner {
+  width: 100%;
+}
+
+.card.card-banner header {
+    display: inline-block;
+}
 
 .card header {
-    color:aliceblue;
-    width: 100px;
-    height: 50px;
+  color: aliceblue;
+  width: 100px;
+  height: 50px;
 }
 
-
-  .card img {
-    width: 100%;
-  }
-
-footer {
-    margin-top: 20px;
-    padding: 5px;
-    height: 100px;
-    width: 100%;
+.card img {
+  width: 100%;
 }
 
-footer h2 {
-    border-right: solid 5px #0355a1;
-    padding: 10px;
-    color: #0355a1;
-    width: 100px;
-    text-align: right;
+.contact {
+  margin-top: 20px;
+  padding: 5px;
+  height: 100px;
+  /* width: 100%; */
 }
 
-.footer {
-    display: flex;
-    justify-content: flex-end;
-    
+.contact h2 {
+  border-right: solid 5px #0355a1;
+  padding: 10px;
+  color: #0355a1;
+  text-align: right;
 }
 
-.footer ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+.contact-detail {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.footer li {
-    border-bottom: solid #0355a1 5px;
-    padding: 10px;
-    color: #0355a1;
-    margin: 10px;
-    
+.contact-detail ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
+.contact-detail li {
+  border-bottom: solid #0355a1 5px;
+  padding: 10px;
+  color: #0355a1;
+  margin: 10px;
+}
 
 /* Media Queries for mobile design */
 
 @media screen and (max-width: 768px) {
-
-
-    }
+}
