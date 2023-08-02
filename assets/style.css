@@ -54,6 +54,7 @@ nav li {
 .banner h2 {
   margin-top: -70px;
   margin-right: 70px;
+  padding-left: 10px;
   background-color: aliceblue;
   color: #0355a1;
   width: 300px;
@@ -65,11 +66,15 @@ main section {
     display: flex;
     flex-wrap: wrap;
 }
+
 section h2 {
   width: 15%;
+  font-size: 250%;
 }
 
-
+.aboutMe {
+  margin-top: 30px;
+}
 
 .aboutMe h2 {
   border-right: solid 5px #0355a1;
@@ -95,6 +100,7 @@ section h2 {
   color: #0355a1;
 }
 
+/* Work cards container code from James C., tutor */
 .work-cards-container {
     padding-left: 20px;
     width: 71%;
@@ -112,6 +118,7 @@ section h2 {
   display: flex;
 }
 
+/* card baner/ card.card-banner code from James C., tutor */
 .card.card-banner {
   width: 95%;
 }
@@ -137,11 +144,12 @@ section h2 {
   width: 100%;
 }
 
+/* some contact section and sub classes code provided by James C., tutor; converted from my original footer code */
+
 .contact {
   margin-top: 20px;
-  padding: 5px;
+  margin-bottom: 15px;
   height: 100px;
-  /* width: 100%; */
 }
 
 .contact h2 {
@@ -149,11 +157,12 @@ section h2 {
   padding: 10px;
   color: #0355a1;
   text-align: right;
+  margin-bottom: 15px;
 }
 
 .contact-detail {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 .contact-detail ul {
@@ -164,14 +173,14 @@ section h2 {
 
 .contact-detail li {
   border-bottom: solid #0355a1 5px;
-  padding: 10px;
   color: #0355a1;
   margin: 10px;
+  
 }
 
 /* Media Queries for mobile design */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .card {
     width: 100%;
   }
@@ -186,6 +195,7 @@ section h2 {
   margin-bottom: 5px;
   border-top-left-radius: 15px;
  }
+
 
  header li {
   margin-top: 50px;
@@ -228,7 +238,6 @@ section h2 {
  }
 
 
-
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
@@ -249,6 +258,12 @@ section h2 {
     margin-top: 50px;
     text-align: center;
    }
+
+   section h2 {
+    width: 10%;
+    font-size: 100%;
+  }
+  
    
   
 }
