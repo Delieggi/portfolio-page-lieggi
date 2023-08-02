@@ -171,19 +171,84 @@ section h2 {
 
 /* Media Queries for mobile design */
 
+@media screen and (max-width: 400px) {
+  .card {
+    width: 100%;
+  }
+
+ header {
+  height: 150px
+ }
+
+ h1 {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 5px;
+  border-top-left-radius: 15px;
+ }
+
+ header li {
+  margin-top: 50px;
+  text-align: center;
+ }
+ .aboutMe {
+  padding: 15px;
+  margin: 15px;
+  display: block;
+ }
+
+ .aboutMe h2 {
+  border: none;
+  
+ }
+
+ .work {
+  padding: 15px;
+  margin: 15px;
+  display: block;
+ }
+
+ .work h2 {
+  border: none;
+ }
+
+ .contact {
+  padding: 15px;
+  margin: 15px;
+  display: block;
+ }
+
+ .contact h2 {
+  border: none;
+ }
+
+ .contact-detail ul {
+  flex-direction: column;
+ }
+ }
+
+
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
 
-  .aboutMe h2 {
-    border-bottom: solid 5px #0355a1;
-    border-right: white;
-  }
-
-  .work h2 {
-    border-bottom: solid 5px #0355a1;
+  header {
+    height: 150px
+   }
+  
+   h1 {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px;
+    border-top-left-radius: 15px;
+   }
+  
+   header li {
+    margin-top: 50px;
     text-align: center;
-    border-right: white;
-  }
+   }
+   
+  
 }
