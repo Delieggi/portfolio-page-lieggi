@@ -2,6 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 header {
   background-color: #0355a1;
   margin: auto;
@@ -29,6 +30,11 @@ nav ul {
   flex-direction: row;
   list-style-type: none;
   margin-top: -50px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 nav li {
@@ -60,13 +66,10 @@ main section {
     flex-wrap: wrap;
 }
 section h2 {
-  width: 25%;
+  width: 15%;
 }
 
-.aboutMe {
-  /* display: flex; */
-  /* margin-top: 40px; */
-}
+
 
 .aboutMe h2 {
   border-right: solid 5px #0355a1;
@@ -110,7 +113,7 @@ section h2 {
 }
 
 .card.card-banner {
-  width: 100%;
+  width: 95%;
 }
 
 .card.card-banner header {
